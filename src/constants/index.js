@@ -42,24 +42,44 @@ import {
   
   const services = [
     {
-      title: "DSA and CP enthusiast",
+      title: "Codechef",
       icon: web,
+      link : "https://www.codechef.com/users/mitu18patil"
     },
     {
-      title: "React Developer",
+      title: "Leetcode",
       icon: mobile,
+      link : "https://leetcode.com/mitu18patil/"
     },
     {
-      title: "Backend Developer",
+      title: "Github",
       icon: backend,
+      link : "https://github.com/mitupatil18"
     },
     {
-      title: "Full stack Developer",
+      title: "GeeksForGeeks",
       icon: creator,
+      link : "https://auth.geeksforgeeks.org/user/mitupatil39"
     },
   ];
   
   const technologies = [
+    {
+      name: "figma",
+      icon: figma,
+    },
+    {
+      name: "Three JS",
+      icon: threejs,
+    },
+    {
+      name: "TypeScript",
+      icon: typescript,
+    },
+    {
+      name: "Node JS",
+      icon: nodejs,
+    },
     {
       name: "HTML 5",
       icon: html,
@@ -73,12 +93,12 @@ import {
       icon: javascript,
     },
     {
-      name: "TypeScript",
-      icon: typescript,
-    },
-    {
       name: "React JS",
       icon: reactjs,
+    },
+    {
+      name: "docker",
+      icon: docker,
     },
     {
       name: "Redux Toolkit",
@@ -89,28 +109,12 @@ import {
       icon: tailwind,
     },
     {
-      name: "Node JS",
-      icon: nodejs,
-    },
-    {
       name: "MongoDB",
       icon: mongodb,
     },
     {
-      name: "Three JS",
-      icon: threejs,
-    },
-    {
       name: "git",
       icon: git,
-    },
-    {
-      name: "figma",
-      icon: figma,
-    },
-    {
-      name: "docker",
-      icon: docker,
     },
   ];
   
@@ -118,40 +122,29 @@ import {
     {
       title: "Walchand College of Engineering , Sangli",
       company_name: "WCE",
-      icon: starbucks,
-      iconBg: "#383E56",
       date: "2021-Present",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "CGPA - 8.6 TILL 4TH SEM"
       ],
     },
     {
       title: "Sangameshwar College, Solapur",
       company_name: "SC",
-      icon: tesla,
-      iconBg: "#E6DEDD",
       date: "2019-2021",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "HSC - 94.33%",
+        "JEE - 96.25%ile",
+        "MHT-CET - 98.75%ile "
       ],
     },
     {
       title: "Saint Thomas English Medium High School",
       company_name: "STEMS",
-      icon: shopify,
-      iconBg: "#383E56",
       date: "2007-2019",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+          "CISCE - 94.4%",
+          "ALL INDIA TOPPER 2019 IN COMPUTER APPLICATIONS(JAVA)",
+          "5 TIMES AWARDED AS STUDENT ICON OF MONTH"
       ],
     }
 
@@ -186,51 +179,55 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Quiz App",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "Customize your quiz experience! Select category, set difficulty, and enjoy dynamic questions from OpenAPI. Track your score for a personalized challenge!",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "bootstrap",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "openapi",
           color: "pink-text-gradient",
+        },
+        {
+          name: "vite",
+          color: "blue-text-gradient",
         },
       ],
       image: carrent,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/mitupatil18/Quiz-With-Api",
     },
     {
-      name: "Job IT",
+      name: "3-D Portfolio",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "A 3-D portfolio website that uses animation and creates a dynamic environment. The website showcases about my skills and projects.",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "threejs",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "reactthreefiber",
           color: "pink-text-gradient",
         },
       ],
       image: jobit,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/mitupatil18/3-D-Portfolio",
     },
     {
       name: "Trip Guide",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "A full stack website with the fusion of Fronted Frameworks, Databases and Spring boot backend........Coming Soon",
       tags: [
         {
           name: "nextjs",

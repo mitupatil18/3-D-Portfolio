@@ -21,9 +21,9 @@ const Navbar = () => {
             window.scroll(0, 0);
           }}
         >
-          <img src={logo} alt="logo" className="w-9 h-9 object-contain" />
+          <img src={logo} alt="logo" className="w-19 h-9" />
           <p className="text-white text-[18px] font-bold cursor-pointer flex">Portfolio &nbsp;
-            <span className="sm:block hidden">| Mitali Patil</span>
+            <span className="sm:block hidden"></span>
           </p>
         </Link>
 
